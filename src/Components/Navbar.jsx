@@ -69,8 +69,8 @@ const Navbar = () => {
                             </ul> : ""
                         }
 
-                        <li className='cursor-pointer px-[8px] text-green-800 font-semibold sarri py-[2px] flex items-center gap-1' onClick={dropTwo}><p>Departments</p>{secondDropdown === true ? <RiArrowDropUpLine /> : <RiArrowDropDownLine />}</li>
-                        {secondDropdown === true ?
+                        <li className='cursor-pointer px-[8px] text-green-800 font-semibold sarri py-[2px] flex items-center gap-1' onClick={dropTwo}><p>Application Portal</p></li>
+                        {/* {secondDropdown === true ?
                             <ul className='shadow-[5px_7px_30px_-5px_rgba(0,_0,_0,_0.51)] absolute top-12 border-[3px] border-green-800 z-50 right-12 rounded-2xl bg-white text-[13px] p-3 flex font-bold flex-col gap-3 text-green-800'>
                                 <li className='cursor-pointer'>Head Of LG Administration Office</li>
                                 <li className='cursor-pointer'>Agricultural And Natural Resource</li>
@@ -78,13 +78,13 @@ const Navbar = () => {
                                 <li className='cursor-pointer'>Primary Health Care Department</li>
                                 <li className='cursor-pointer'>Audit Unit</li>
                             </ul> : ""
-                        }
+                        } */}
 
                         <li className='cursor-pointer px-[8px] text-green-800 font-semibold sarri py-[2px] flex items-center gap-1' onClick={dropThree}><p>Staffs</p>{thirdDropdown === true ? <RiArrowDropUpLine /> : <RiArrowDropDownLine />}</li>
                         {thirdDropdown === true ?
                             <ul className='shadow-[5px_7px_30px_-5px_rgba(0,_0,_0,_0.51)] absolute top-12 border-[3px] border-green-800 z-50 right-[-20px] rounded-2xl bg-white text-[13px] p-3 flex font-bold flex-col gap-3 text-green-800'>
-                                <li>Nominal Rolls</li>
-                                <li>Senorite Rolls</li>
+                                <li className='cursor-pointer'>Nominal Rolls</li>
+                                <li className='cursor-pointer'>Senorite Rolls</li>
                             </ul> : ""
                         }
                     </ol>

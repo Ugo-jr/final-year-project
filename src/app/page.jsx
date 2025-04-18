@@ -4,6 +4,7 @@
 import SectionOne from "@/Components/Homepage/SectionOne";
 import SectionTwo from "@/Components/Homepage/SectionTwo";
 import SectionThree from "@/Components/Homepage/SectionThree";
+import SectionFour from "@/Components/Homepage/SectionFour";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </div>
   )
 }
